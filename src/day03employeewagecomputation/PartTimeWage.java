@@ -1,10 +1,10 @@
 package day03employeewagecomputation;
-
+//changed data_type,modular_changed_to decrease_part_time_employee
 public class PartTimeWage {
 	//int total=sum;
 	final byte wagePerHour=20;
-	final int partTimeHour=8 ;
-	int partTimeEmployee=(int)(Math.random()*100);
+	final byte partTimeHour=8 ;
+	int partTimeEmployee=(int)(Math.random()*10);
 	int sum=wagePerHour*partTimeEmployee*partTimeHour;
 	
 	public static void main(String[] args) {
