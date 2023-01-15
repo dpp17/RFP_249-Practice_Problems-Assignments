@@ -1,19 +1,18 @@
 package day03employeewagecomputation;
-
+//changed no_of_employee_present_absent-present_absent_only
 public class EmployeesPresentAbsent {
 	
-	int present = (int) (Math.random()*1000);
-	int absent = (int) (Math.random()*1000);
+	int present = (int) (Math.random()*10);
+	int absent = (int) (Math.random()*10);
 	
 	public static void main(String[] args) {
 
-//		int present = (int) (Math.random()*1000);
-//		int absent = (int) (Math.random()*1000);
 
 		EmployeesPresentAbsent employee = new EmployeesPresentAbsent();
-		
-		System.out.println(": Number of Employees Present :: "+ employee.present);
-		System.out.println(": Number of Employees Absent :: "+employee.absent);
-		
+		if(employee.present%2==0 && employee.present!=0) {
+		System.out.println(": Employee is Present :");
+		}else {
+			System.out.println(": Employee is absent :");
+		}
 	}
 }
