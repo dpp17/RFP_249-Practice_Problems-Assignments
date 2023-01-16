@@ -2,11 +2,11 @@ package day03linecomparison;
 
 public class ComapreLineLengths {
 
-
+byte r;
 	
-	public float lineLen(int x1, int y1,int x2,int y2) {
+	public float lineLen(byte x1, byte y1,byte x2,byte y2) {
 		
-		float length= (float)(Math.sqrt( (Math. pow((x1-x2),2) + Math. pow((x1-x2),2)) ));
+		float length= (float)(Math.sqrt( (Math. pow((x1-x2),2) + Math. pow((y1-y2),2)) ));
 		
 		return length;
 	}
@@ -14,14 +14,14 @@ public class ComapreLineLengths {
 	public static void main(String[] args) {
 		EqualityOfTwoLines len = new EqualityOfTwoLines();
 		
-		int numb1 = (int)(Math.random()*100);
-		int numb2 = (int)(Math.random()*100);
-		int numb3 = (int)(Math.random()*100);
-		int numb4 = (int)(Math.random()*100);
-		int numb5 = (int)(Math.random()*100);
-		int numb6 = (int)(Math.random()*100);
-		int numb7 = (int)(Math.random()*100);
-		int numb8 = (int)(Math.random()*100);
+		byte numb1 = (byte)(Math.random()*100);
+		byte numb2 = (byte)(Math.random()*100);
+		byte numb3 = (byte)(Math.random()*100);
+		byte numb4 = (byte)(Math.random()*100);
+		byte numb5 = (byte)(Math.random()*100);
+		byte numb6 = (byte)(Math.random()*100);
+		byte numb7 = (byte)(Math.random()*100);
+		byte numb8 = (byte)(Math.random()*100);
 		
 		String s1=Float.toString(len.lineLen(numb1, numb2, numb3, numb4));
 		String s2=Float.toString(len.lineLen(numb5, numb6, numb7, numb8));
