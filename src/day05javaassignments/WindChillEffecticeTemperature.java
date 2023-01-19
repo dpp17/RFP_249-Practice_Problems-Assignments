@@ -9,10 +9,10 @@ public class WindChillEffecticeTemperature {
 		Scanner getWeatherValue = new Scanner(System.in);
 //	temperature t (in Fahrenheit)	
 		System.out.println(": Enter temperature t (in Fahrenheit) :");
-		int temperatureInFahrenheit=getWeatherValue.nextInt();
+		float temperatureInFahrenheit=getWeatherValue.nextFloat();
 //wind Speed
 		System.out.println(": Enter wind speed v (in miles per hour) :");
-		int windSpeed=getWeatherValue.nextInt();
+		float windSpeed=getWeatherValue.nextFloat();
 //Note: the formula is not valid if t is larger than 50 in absolute value or if v is larger than 120 or less than 3		
 		if(temperatureInFahrenheit<50 && windSpeed>3 && windSpeed<120) {
 			
