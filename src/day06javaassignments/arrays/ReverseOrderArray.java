@@ -25,6 +25,5 @@ public class ReverseOrderArray {
 		for(byte i=0; i<givenArray.length; i++) {
 			System.out.print(reverseArray[i]+" ");
 		}System.out.println("]");
-
 	}
 }
