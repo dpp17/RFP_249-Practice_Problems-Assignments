@@ -40,7 +40,7 @@ public class AddTwoMatrixUsingMultidimensionalArray {
 		int[][] addMatrixArray = {{0},{0},{0},{0}};
 		
 		System.out.print(":: Method( 2 ) :: matrixArraySum[2][2] :: ");
-		for(int i=0;i<=3;i++) {
+		for(int i=0;i<4;i++) {
 			addMatrixArray[i][0]=firstMatrixArray[i][0]+secondMatrixArray[i][0];
 				System.out.print(addMatrixArray[i][0]+" ");
 			System.out.print("");
