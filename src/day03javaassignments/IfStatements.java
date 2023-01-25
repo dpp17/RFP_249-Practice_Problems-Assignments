@@ -1,4 +1,4 @@
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 /*
  
  * Decision_making Statements:

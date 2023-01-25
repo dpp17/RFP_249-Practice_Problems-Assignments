@@ -1,5 +1,5 @@
 //Java Program to sort the elements of an array in ascending order 
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class SortArrayInAscendingOrder {
 

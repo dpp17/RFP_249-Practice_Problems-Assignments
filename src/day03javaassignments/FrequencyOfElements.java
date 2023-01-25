@@ -1,5 +1,5 @@
 //Java Program to find the frequency of each element in the array
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class FrequencyOfElements {
 

@@ -1,5 +1,5 @@
 //Java Program to print the largest element in an array
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class LargestElementInArray {
 	

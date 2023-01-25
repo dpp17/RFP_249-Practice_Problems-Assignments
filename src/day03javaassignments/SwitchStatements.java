@@ -1,4 +1,4 @@
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 /*In Java, Switch statements are similar to if-else-if statements.
 The switch statement contains multiple blocks of code called cases and a single case is executed based on the variable which is being switched.
