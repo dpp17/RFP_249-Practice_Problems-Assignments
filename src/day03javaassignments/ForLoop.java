@@ -1,4 +1,4 @@
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 /*Looping_Statements:
  In programming, sometimes we need to execute the block of code repeatedly while some condition evaluates to true.

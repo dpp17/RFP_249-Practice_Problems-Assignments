@@ -1,5 +1,5 @@
 //Find 2nd Largest Number in an Array
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class SecondLargestNumberInArray {
 

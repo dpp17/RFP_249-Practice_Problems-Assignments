@@ -1,5 +1,5 @@
 //Java Program to print the duplicate elements of an array
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class DuplicateElementsOfAnArray {
 

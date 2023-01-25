@@ -1,5 +1,5 @@
 //Java Program to print the elements of an array present on odd position
-package com.bridgelabz.daythreeprac;
+package day03javaassignments;
 
 public class ElementAtOddPositionInArray {
 
