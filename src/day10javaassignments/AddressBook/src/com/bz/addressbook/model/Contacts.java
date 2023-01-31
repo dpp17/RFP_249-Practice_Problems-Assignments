@@ -1,4 +1,4 @@
-package com.bz.addressbook.model;
+package day10javaassignments.AddressBook.src.com.bz.addressbook.model;
 
 public class Contacts {
 
