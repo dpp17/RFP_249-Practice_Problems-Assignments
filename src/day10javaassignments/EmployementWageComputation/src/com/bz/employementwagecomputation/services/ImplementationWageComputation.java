@@ -1,6 +1,6 @@
-package com.bz.employementwagecomputation.services;
+package day10javaassignments.EmployementWageComputation.src.com.bz.employementwagecomputation.services;
 
-import com.bz.employementwagecomputation.interfaces.IWageComputation;
+import day10javaassignments.EmployementWageComputation.src.com.bz.employementwagecomputation.interfaces.IWageComputation;
 
 public class ImplementationWageComputation implements IWageComputation {
 
