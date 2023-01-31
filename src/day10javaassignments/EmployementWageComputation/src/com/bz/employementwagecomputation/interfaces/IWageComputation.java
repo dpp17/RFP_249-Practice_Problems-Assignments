@@ -1,4 +1,4 @@
-package com.bz.employementwagecomputation.interfaces;
+package day10javaassignments.EmployementWageComputation.src.com.bz.employementwagecomputation.interfaces;
 
 
 public interface IWageComputation {
