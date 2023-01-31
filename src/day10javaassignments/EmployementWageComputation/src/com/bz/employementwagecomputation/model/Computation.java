@@ -1,4 +1,4 @@
-package com.bz.employementwagecomputation.model;
+package day10javaassignments.EmployementWageComputation.src.com.bz.employementwagecomputation.model;
 
 public class Computation {
 	
