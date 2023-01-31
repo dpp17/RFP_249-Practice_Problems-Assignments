@@ -1,4 +1,4 @@
-package com.bz.employementwagecomputation.controller;
+package day10javaassignments.EmployementWageComputation.src.com.bz.employementwagecomputation.controller;
 
 import java.util.Scanner;
 
