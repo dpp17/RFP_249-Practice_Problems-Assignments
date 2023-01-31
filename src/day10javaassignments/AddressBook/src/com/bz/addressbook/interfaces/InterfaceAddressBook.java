@@ -1,4 +1,4 @@
-package com.bz.addressbook.interfaces;
+package day10javaassignments.AddressBook.src.com.bz.addressbook.interfaces;
 
 import com.bz.addressbook.model.Contacts; 
 
