@@ -1,4 +1,4 @@
-package com.bz.addressbook.controller;
+package day10javaassignments.AddressBook.src.com.bz.addressbook.controller;
 import java.util.Scanner;
 
 import com.bz.addressbook.interfaces.InterfaceAddressBook;
