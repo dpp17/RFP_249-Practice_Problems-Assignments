@@ -1,4 +1,4 @@
-package com.bz.addressbook.services;
+package day10javaassignments.AddressBook.src.com.bz.addressbook.services;
 
 import java.util.Scanner;
 
