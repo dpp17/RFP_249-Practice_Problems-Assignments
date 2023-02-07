@@ -18,5 +18,6 @@ public class MainBST {
         System.out.println("RighttNode :: ");
         bst.print(root.right);
         
+        
     }
 }
