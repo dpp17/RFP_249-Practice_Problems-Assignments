@@ -1,6 +1,6 @@
 package day24javaassignments.src.addressbook.interfaces;
 
-import addressbook.model.Contacts;
+import day24javaassignments.src.addressbook.model.Contacts;
 
 public interface InterfaceAddressBook {
 
@@ -8,4 +8,6 @@ public interface InterfaceAddressBook {
 	int createContactDetails(Contacts contacts);
 	void editByName(String firstName);
 	void deleteByFirstName(String firstname);
+	void countByCityOrState(String input);
+	void sortByNameCityStateZip(String input);
 }

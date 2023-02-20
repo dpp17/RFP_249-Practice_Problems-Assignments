@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import addressbook.interfaces.InterfaceAddressBook;
-import addressbook.model.Contacts;
+import day24javaassignments.src.addressbook.interfaces.InterfaceAddressBook;
+import day24javaassignments.src.addressbook.model.Contacts;
+
+
 
 public class ImplementationsOfAddressBook implements InterfaceAddressBook{
 
@@ -115,6 +117,30 @@ public class ImplementationsOfAddressBook implements InterfaceAddressBook{
 				System.out.println(" Serial No.:: ABRN_ "+ i );
 				contactDetailsPrint(contacts);
 				}	
+			}
+		}
+
+	
+
+		@Override
+		public void countByCityOrState(String input) {
+				long number = storeContactDelails.stream().count();
+				System.out.println(" Number of records as per City :: " + number);
+		
+		}
+
+		@Override
+		public void sortByNameCityStateZip(String input) {
+			System.out.println(" Enter option :: " +'\n' +" 1.Name"+'\n'+ "2.City"+'\n' +" 3.State"+'\n'+ "4.Zip");
+			String str = getDetailInput.next();
+			if(str.equalsIgnoreCase("Name")) {
+			storeContactDelails.stream().map(name->name.getFirstName()).sorted().collect(Collectors.toList());
+			}else if(str.equalsIgnoreCase("City")) {
+			storeContactDelails.stream().map(city->city.getCity()).sorted().collect(Collectors.toList());
+			}else if(str.equalsIgnoreCase("State")) {
+			storeContactDelails.stream().map(state->state.getState()).sorted().collect(Collectors.toList());
+			}else {
+				storeContactDelails.stream().map(state->state.getState()).sorted().collect(Collectors.toList());	
 			}
 		}
 		
